@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ROLEX - Styled Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div>
+          <h1>ROLEX</h1>
+          <p class="meta">Aspiring Web Developer • BCA</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ABOUT -->
+      <section id="about">
+        <img src="images/profile.jpg" alt="Profile photo of Prajwal Mali">
+        <div class="bio">
+          <h2>About Me</h2>
+          <p>Hello — I'm <strong>PRAJWAL MALI</strong>. I'm currently studying BCA and learning web development. I enjoy building small projects and improving my HTML/CSS skills.</p>
+          <p class="text-muted">Aspiring Web Developer • BCA</p>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">Responsive Design</span>
+          <span class="skill">Git & GitHub</span>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="gallery">
+          <img src="images/project1.jpg" alt="Project 1 screenshot" loading="lazy">
+          <img src="images/project2.jpg" alt="Project 2 screenshot" loading="lazy">
+        </div>
+
+        <p style="margin-top:12px;">This is Project 2 — the Week-2 styled portfolio using CSS. Click images to preview (hover to see effect).</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form action="mailto:prajwalmali984@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ • ROLEX</p>
+      <p class="text-muted" style="margin-top:6px;">Last updated: December 24, 2025</p>
+    </footer>
+  </div>
+</body>
+</html>
